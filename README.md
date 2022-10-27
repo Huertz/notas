@@ -67,7 +67,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 [Express](https://expressjs.com/)
 
-[]()
+[Learn Express JS](https://www.youtube.com/watch?v=SccSCuHhOw0&list=LL&index=5&ab_channel=WebDevSimplified)
 
 ## License
 

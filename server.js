@@ -11,11 +11,11 @@ const app = express();
 // PORT
 const PORT = process.env.PORT || 3000;
 
-// Assess information coming from froms
-app.use(express.urlencoded({ extended: true }));
-
 // 
 app.use(express.json());
+// Assess information coming from forms
+
+app.use(express.urlencoded({ extended: true }));
 
 // Static page
 app.use(express.static('public'));
@@ -25,4 +25,4 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // Listener PORT
-app.listen(PORT, () => console.log(`API server http://localhost/${PORT}`));
+app.listen(PORT, () => console.log(`API server http://localhost:${PORT}`));

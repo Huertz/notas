@@ -1,10 +1,9 @@
 // Dependencies
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
 
-const saveRoute = ('../db/almacen');
+const saveRoute = require('../db/almacen');
 // Get      
-router.get('/notes', (req, res) => {
+router.get('/notes', function (req, res) {
     saveRoute
         .getNotes()
         .then(notes => res.json(notes))
@@ -12,7 +11,7 @@ router.get('/notes', (req, res) => {
     });
   
 // Post
-router.post('/notes', (req, res) => {
+router.post('/notes', function (req, res) {
     saveRoute
     .addNote(req.body)
     .then((note) => res.json(note))

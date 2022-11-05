@@ -69,6 +69,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 [Learn Express JS](https://www.youtube.com/watch?v=SccSCuHhOw0&list=LL&index=5&ab_channel=WebDevSimplified)
 
+[Guide](https://www.geeksforgeeks.org/how-to-build-note-taking-application-using-node-js/)
+
+[Guide](https://medium.com/@nnamani.ezinne/simple-note-taking-app-using-node-js-and-ejs-4899321a3342)
+
 ## License
 
 MIT License

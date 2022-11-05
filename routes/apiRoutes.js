@@ -17,7 +17,7 @@ router.post('/notes', function (req, res) {
     .then((note) => res.json(note))
     .catch((err) => res.status(500).json(err));
 });
-// Delete
+// Delete Bonus Points
 router.delete('/notes/:id', (req, res) => {
     saveRoute
         .removeNote(req.params.id)

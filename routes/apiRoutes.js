@@ -1,4 +1,3 @@
-// Dependencies
 const router = require('express').Router();
 
 const saveRoute = require('../db/almacen');
